@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "component-3"
+version = "0.1.0"
+description = ""
+authors = ["julianfrenzel <26822719+b0lle@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "component_3", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

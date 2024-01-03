@@ -1,0 +1,4 @@
+__pycache__
+.pytest_cache
+.venv
+# .env should be part of this file, but was added for presentation purposes

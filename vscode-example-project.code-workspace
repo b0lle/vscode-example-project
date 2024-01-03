@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "component_1"
+		},
+		{
+			"path": "component_2"
+		},
+		{
+			"path": "component_3"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "GitHub Dark Dimmed",
+		"editor.rulers": [120]
+	}
+}
