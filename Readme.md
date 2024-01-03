@@ -13,3 +13,11 @@ The purpose of this project is not only to demonstrate the capabilities of VSCod
 hands-on approach to learning how to effectively configure and manage a coding project within this environment.
 Whether you're a seasoned developer or a beginner just starting out, this project aims to provide valuable insights
 into the workings of VSCode and its many features.
+
+# Poetry
+
+The project uses poetry. Configure it as follows:
+```shell
+poetry config virtualenvs.in-project true
+poetry config virtualenvs.prefer-active-python true
+```
